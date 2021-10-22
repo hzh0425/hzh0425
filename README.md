@@ -24,7 +24,7 @@
 
 - 2021年 福州大学软件设计与服务外包创新创业竞赛 一等奖
 
-  
+- ...................  
 
 ## 开源贡献
 
@@ -70,7 +70,7 @@ Issue 地址: https://github.com/sofastack/sofa-jraft/issues/596
 
 描述: 该项目为 TIDB 社区 的 Tallent challenge program 2021 中的任务 , 主要负责在 PD 中新增一个接口, 使得 TIDB / 工具 可以直接通过 PD  进行 split and scatter table regions, 以提升稳定性和性能
 
-Issue 地址: https://github.com/tikv/pd/issues/4224
+Tracking issue: https://github.com/pingcap/tidb/issues/29034
 
 
 
