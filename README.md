@@ -40,7 +40,8 @@
 
 Pr 地址: https://github.com/sofastack/sofa-jraft/pull/696
 
-详细文章地址: (撰写中)
+[详细文章地址](https://mp.weixin.qq.com/s?__biz=MzUzMzU5Mjc1Nw==&mid=2247497065&idx=1&sn=41cc54dbca1f9bb1d2e50dbd181f062d&chksm=faa31ab3cdd493a52bac26736b2d66c9fcda77c6591048ae758f9663ded0a1a068947a8488ab&mpshare=1&scene=23&srcid=1026H0gUsE1GGJq3hgzmKpGe&sharer_sharetime=1635251084804&sharer_shareid=4685e37971dd76c96606e8a800ad9755#rd)
+
 
 
 
@@ -52,6 +53,7 @@ Pr 地址: https://github.com/sofastack/sofa-jraft/pull/678
 Issue 地址:  https://github.com/sofastack/sofa-jraft/issues/614
 
 详细文章地址: (撰写中)
+
 
 
 
