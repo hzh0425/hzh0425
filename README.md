@@ -91,10 +91,10 @@ Tracking issue: https://github.com/pingcap/tidb/issues/29034
 - 组织学弟学妹参与竞赛, 持续为实验室贡献奖状。
 - .......................
 
+## Github stats
 
 
-
-
+![hzh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hzh0425&show_icons=true&theme=algolia)
 
 
 
