@@ -3,6 +3,7 @@
 
 更新时间 2021 10 22
 
+![hzh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hzh0425&show_icons=true&theme=algolia)
 
 
 ## 个人信息
@@ -90,11 +91,6 @@ Tracking issue: https://github.com/pingcap/tidb/issues/29034
 - 担任 Web 组后端组长, 引领学弟学妹学习 Java 技术, 为实验室培养了众多优秀的后端人才。
 - 组织学弟学妹参与竞赛, 持续为实验室贡献奖状。
 - .......................
-
-## Github stats
-
-
-![hzh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hzh0425&show_icons=true&theme=algolia)
 
 
 
