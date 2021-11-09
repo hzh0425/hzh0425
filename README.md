@@ -3,7 +3,7 @@
 
 更新时间 2021 10 22
 
-![hzh's GitHub stats](https://github-readme-stats.vercel.app/api?username=hzh0425&show_icons=true&theme=algolia)
+![hi! im hzh](https://github-readme-stats.vercel.app/api?username=hzh0425&show_icons=true&theme=algolia)
 
 
 ## 个人信息
