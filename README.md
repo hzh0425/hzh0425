@@ -85,33 +85,43 @@ Read-Index等优化。
 
 **1.SOFAJRaft   -- 重构日志模块 (进行中)**
 
-描述: 该项目为2021年开源软件供应链点亮计划的高难度项目, 主要负责构建一个新的日志系统, 去除  SOFAJRaft  对 Rocksdb 的依赖
+- 该项目为2021年暑期开源软件供应链点亮计划的高难度项目,并获得了'最佳开源贡献奖'的奖项
 
-项目说明: https://summer.iscas.ac.cn/#/org/prodetail/210170433
+- 基于软件分层思想,构建了索引与数据存储一体化存储架构。
 
-Pr 地址: https://github.com/sofastack/sofa-jraft/pull/696
+- 利用mmap内存映射技术,文件预分配,文件预热,组提交等,有效的提高了读写性能。
 
-[详细文章地址](https://mp.weixin.qq.com/s?__biz=MzUzMzU5Mjc1Nw==&mid=2247497065&idx=1&sn=41cc54dbca1f9bb1d2e50dbd181f062d&chksm=faa31ab3cdd493a52bac26736b2d66c9fcda77c6591048ae758f9663ded0a1a068947a8488ab&mpshare=1&scene=23&srcid=1026H0gUsE1GGJq3hgzmKpGe&sharer_sharetime=1635251084804&sharer_shareid=4685e37971dd76c96606e8a800ad9755#rd)
+- 项目说明: https://summer.iscas.ac.cn/#/org/prodetail/210170433
+
+- Pr 地址: https://github.com/sofastack/sofa-jraft/pull/696
+
+- [详细文章地址](https://mp.weixin.qq.com/s?__biz=MzUzMzU5Mjc1Nw==&mid=2247497065&idx=1&sn=41cc54dbca1f9bb1d2e50dbd181f062d&chksm=faa31ab3cdd493a52bac26736b2d66c9fcda77c6591048ae758f9663ded0a1a068947a8488ab&mpshare=1&scene=23&srcid=1026H0gUsE1GGJq3hgzmKpGe&sharer_sharetime=1635251084804&sharer_shareid=4685e37971dd76c96606e8a800ad9755#rd)
 
 
 
 
 **2.SOFAJRaft / Rheakv    -- 并行化状态机**
 
-描述: 基于依赖检测的并行化 State machine 状态机, 将串行执行的状态机模块转化为并行执行。
+- 借鉴Mysql并行复制的特性,针对分布式状态机单线程执行的弊端,提出通用的多线程并行状态机,任何基于状态机的共识算法都能使用该思想构建多线程状态机。
 
-Pr 地址: https://github.com/sofastack/sofa-jraft/pull/678
-Issue 地址:  https://github.com/sofastack/sofa-jraft/issues/614
+- 基于BloomFilter+Dag有向无环图+高性能并发队列Disruptor。
+
+- 通过批量提交与依赖检测,将无依赖的任务批次进行并行化执行。
+
+- 显著的提高了Rheakv的吞吐量和并行度。
+
+- Pr 地址: https://github.com/sofastack/sofa-jraft/pull/678
+- Issue 地址:  https://github.com/sofastack/sofa-jraft/issues/614
 
 
 
 
 **3.SOFAJRaft / Rheakv   -- 并行压缩日志**
 
-描述: 基于 Common-compress 进行日志的并行化压缩与解压缩  
+- 描述: 基于 Common-compress 进行日志的并行化压缩与解压缩  
 
-Pr 地址: https://github.com/sofastack/sofa-jraft/pull/603
-Issue 地址: https://github.com/sofastack/sofa-jraft/issues/596
+- Pr 地址: https://github.com/sofastack/sofa-jraft/pull/603
+- Issue 地址: https://github.com/sofastack/sofa-jraft/issues/596
 
 
 
