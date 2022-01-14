@@ -32,7 +32,7 @@
 
 **1.CreatorStack/CreatorKv - -A distributed and fault-tolerant key-value storage** 
 
-**主要工作:完成一款支持分布式事务的键值存储系统,开发语言: go**
+**主要工作:完成一款支持分布式事务的键值存储系统,开发语言: go**  (暂不开源)
 
 - 根据Raft论文,实现了Raft模块,具备Leader选举,日志复制,Snapshot等基础功能,同时引入了Batch-Pipeline,
 
