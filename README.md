@@ -33,7 +33,7 @@
 **1.腾讯 csig 分布式存储**
 
 - 时间: 至今
-- 主要负责 distributed query engine 研发
+- 主要负责 distributed query engine 研发, task 监控, 调度与负载均衡
 - 后续再更新..
 
 ## 数据库研发经验
