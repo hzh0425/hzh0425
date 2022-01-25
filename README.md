@@ -20,6 +20,7 @@
 - SOFAStack/SOFAJRaft contributor
 - [2021 '开源软件供应链点亮计划' -- '突出贡献奖'](https://summer.iscas.ac.cn/#/fintermdata)
 - [2021 'Pingcap tinykv 分布式存储训练营 一等奖'](https://asktug.com/t/topic/393068)
+- 腾讯校园大使
 - TIDB / PD contributor
 - 2021年 中国大学生服务外包创新创业大赛国家级 一等奖
 - 2020年 泛珠三角 + 大学生计算机作品大赛 国家级二等奖
