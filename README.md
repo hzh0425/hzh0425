@@ -39,9 +39,9 @@
 
 ## 数据库研发经验
 
-**1.CreatorStack/CreatorKv - -A distributed and fault-tolerant key-value storage** 
+**1.Pingcap/Tinykv - -A distributed and fault-tolerant key-value storage** 
 
-**主要工作:完成一款支持分布式事务的键值存储系统,开发语言: go**  (暂不开源)
+**主要工作:完成一款支持分布式事务的键值存储系统**  (暂不开源)
 
 - 根据Raft论文,实现了Raft模块,具备Leader选举,日志复制,Snapshot等基础功能,同时引入了Batch-Pipeline,
 
@@ -55,7 +55,7 @@ Read-Index等优化。
 
 仓库地址:https://github.com/CreatorsStack/CreatorKv
 
-**2.CreatorStack/CreatorDB-- Asimple Database management system** 
+**2.CreatorStack/CreatorDB-- A simple Database management system** 
 
 **主要工作:完成一款支持sql解析和优化的数据库管理系统, 开发语言:Java**
 
