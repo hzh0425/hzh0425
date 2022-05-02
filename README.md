@@ -43,12 +43,12 @@
 
 #### 1.支持 HA 主从切换
 
-为 Rocketmq HA 版本实现主从切换功能, 架构级项目
+统一 Rocketmq 日志复制链路, 代替原因的 dledger 模式, 架构级项目.
 
 - RIP: (pending)
 - 为 Dledger 新增 statemachine, pr: [Feature: add statemachine for dledger by hzh0425 · Pull Request #128 · openmessaging/dledger (github.com)](https://github.com/openmessaging/dledger/pull/128)
 - 为 Rocketmq 新增 Controller: pr: [[Summer of Code\] Dledger controller by hzh0425 · Pull Request #4195 · apache/rocketmq (github.com)](https://github.com/apache/rocketmq/pull/4195)
-- 使用新的日志复制算法 (pending)
+- 使用新的日志复制 ha-service: pr: https://github.com/apache/rocketmq/pull/4236 
 - 实现主从切换  (pending)
 
 
