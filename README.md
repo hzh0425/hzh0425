@@ -1,14 +1,17 @@
 - [1. 个人信息](#个人信息)
 - [2. 个人荣誉](#个人荣誉)
-- [3. 开源贡献](#开源贡献)
-  - [3.1 Apache / Rocketmq](#apache--rocketmq)
+- [3.实习经历](#实习经历)
+  - [3.1 Tencent](#tencent)
+
+- [4. 开源贡献](#开源贡献)
+  - [4.1 Apache / Rocketmq](#apache--rocketmq)
     - [1.支持 HA 主从切换](#1支持-ha-主从切换)
-  - [3.2 Pingcap / TiFlash](#pingcap--tiflash)
-  - [3.3 SOFAStack / SOFAJRaft](#sofastack--sofajraft)
+  - [4.2 Pingcap / TiFlash](#pingcap--tiflash)
+  - [4.3 SOFAStack / SOFAJRaft](#sofastack--sofajraft)
     - [1.SOFAJRaft   -- 构建日志存储模块](#1sofajraft------构建日志存储模块)
     - [2.SOFAJRaft / Rheakv    -- 并行化状态机](#2sofajraft--rheakv-------并行化状态机)
     - [3.SOFAJRaft / Rheakv   -- 并行压缩日志](#3sofajraft--rheakv------并行压缩日志)
-  - [3.4 数据库研发经验](#数据库研发经验)
+  - [4.4 数据库研发经验](#数据库研发经验)
     - [1.Pingcap/Tinykv](#1pingcaptinykv)
     - [**2.Mit6.830**](#2mit6830)
 
@@ -25,15 +28,23 @@
 ## 个人荣誉
 
 - Contributor of Apache/Rocketmq, Dledger
-
 - Member of SOFAStack/SOFAJRaft
 - Member of Pingcap/talent-plan
 - [2021 '开源软件供应链点亮计划' -- '突出贡献奖'](https://summer.iscas.ac.cn/#/fintermdata)
 - [2021 'Pingcap tinykv 分布式存储训练营 第一名'](https://asktug.com/t/topic/393068)
 - 腾讯, 华为 -- fzu校园大使
 - 2021年 中国大学生服务外包创新创业大赛国家级 一等奖
-
 - ...................
+
+
+
+## 实习经历
+
+### Tencent
+
+**时间**: four months
+
+**工作内容:** 构建 mpp 大规模分布式并行计算引擎, 负责任务分级监控, 资源隔离, 任务调度等 ~
 
 
 
@@ -130,3 +141,20 @@ Read-Index等优化。
 - 完成了B+树索引模块,支持查询,插入删除,以及页合并,页分裂的特性。
 
 仓库地址:https://github.com/CreatorsStack/CreatorDB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
