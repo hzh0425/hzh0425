@@ -27,7 +27,7 @@
 
 ## 个人荣誉
 
-- Contributor of Apache/Rocketmq, Dledger
+- Contributor of Apache/Rocketmq, OpenMessaging/Dledger
 - Member of SOFAStack/SOFAJRaft
 - Member of Pingcap/talent-plan
 - [2021 '开源软件供应链点亮计划' -- '突出贡献奖'](https://summer.iscas.ac.cn/#/fintermdata)
@@ -42,7 +42,7 @@
 
 ### Tencent
 
-**时间**: four months
+**时长**: Four months
 
 **工作内容:** 构建 mpp 大规模分布式并行计算引擎, 负责任务分级监控, 资源隔离, 任务调度等 ~
 
