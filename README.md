@@ -59,7 +59,7 @@
 - RIP: (pending, 后续会发布)
 - 为 Dledger 新增 statemachine , pr: [Feature: add statemachine for dledger by hzh0425 · Pull Request #128 · openmessaging/dledger (github.com)](https://github.com/openmessaging/dledger/pull/128)
 - 为 Rocketmq 新增 Controller: pr: [[Summer of Code\] Dledger controller by hzh0425 · Pull Request #4195 · apache/rocketmq (github.com)](https://github.com/apache/rocketmq/pull/4195)
-- 使用新的日志复制 ha-service, 在主从切换时进行日志截断: pr: https://github.com/apache/rocketmq/pull/4236 
+- 基于 Nio 实现新的 Ha -- AutoSwitchHAService, 新的日志复制协议 , 在主从切换时进行日志截断: pr: [[Summer of Code] Support switch role for ha service ](https://github.com/apache/rocketmq/pull/4236) 
 - 实现主从切换  (pending)
 
 
