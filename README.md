@@ -55,6 +55,7 @@
 #### 1.支持 HA 主从切换
 
 统一 Rocketmq 日志复制链路, 实现主从切换能力, 代替原有的 dledger 模式, 架构级项目.
+![image](https://user-images.githubusercontent.com/58988019/167083613-7fafaa27-a1b8-4f25-804d-7206f5b9b6e0.png)
 
 - RIP: (pending, 后续会发布)
 - 为 Dledger 新增 statemachine , pr: [Feature: add statemachine for dledger by hzh0425 · Pull Request #128 · openmessaging/dledger (github.com)](https://github.com/openmessaging/dledger/pull/128)
@@ -65,7 +66,7 @@
 
 
 ### Pingcap / TiFlash
-
+Pending, comming soon
 
 
 ### SOFAStack / SOFAJRaft 
