@@ -72,6 +72,8 @@ Pending, comming soon
 
 #### 1.SOFAJRaft   -- 构建日志存储模块
 
+![image](https://user-images.githubusercontent.com/58988019/167566312-ffff79b7-79f5-4d54-bc5e-ce59bea15da2.png)
+
 - 该项目为2021年暑期开源软件供应链点亮计划的高难度项目,并获得了'突出贡献奖'的奖项
 - 主要工作是为 SOFAJRaft 构建新的存储模块.
 - 基于软件分层思想,构建了索引与数据存储一体化存储架构。
