@@ -55,13 +55,12 @@
 #### 1.支持 HA 主从切换
 
 统一 Rocketmq 日志复制链路, 实现主从切换能力, 代替原有的 dledger 模式, 架构级项目.
-![image](https://user-images.githubusercontent.com/58988019/167083613-7fafaa27-a1b8-4f25-804d-7206f5b9b6e0.png)
-
+![image](https://user-images.githubusercontent.com/58988019/167562365-a083f415-1701-425f-92cc-eb72eb2b3f0c.png)
 - RIP: (pending, 后续会发布)
 - 为 Dledger 新增 statemachine , pr: [Feature: add statemachine for dledger by hzh0425 · Pull Request #128 · openmessaging/dledger (github.com)](https://github.com/openmessaging/dledger/pull/128)
 - 为 Rocketmq 新增 Controller: pr: [[Summer of Code\] Dledger controller by hzh0425 · Pull Request #4195 · apache/rocketmq (github.com)](https://github.com/apache/rocketmq/pull/4195)
 - 基于 Nio 实现新的 Ha -- AutoSwitchHAService, 新的日志复制协议 , 在主从切换时进行日志截断: pr: [[Summer of Code] Support switch role for ha service ](https://github.com/apache/rocketmq/pull/4236) 
-- 实现主从切换  (pending)
+- 在 Broker 层面实现主从切换的功能. pr: [[Summer of Code] Support switch role for broker](https://github.com/apache/rocketmq/pull/4272)
 
 
 
