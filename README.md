@@ -27,8 +27,8 @@
 
 ## 个人荣誉
 
+- **Committer of SOFAStack/SOFAJRaft**
 - Contributor of Apache/Rocketmq, OpenMessaging/Dledger
-- Member of SOFAStack/SOFAJRaft
 - Member of Pingcap/talent-plan
 - [2021 '开源软件供应链点亮计划' -- '突出贡献奖'](https://summer.iscas.ac.cn/#/fintermdata)
 - [2021 'Pingcap tinykv 分布式存储训练营 第一名'](https://asktug.com/t/topic/393068)
