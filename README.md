@@ -63,10 +63,6 @@
 - 支持 Async learner broker 角色: https://github.com/apache/rocketmq/pull/4367
 
 
-### Pingcap / TiFlash
-Pending, comming soon
-
-
 ### SOFAStack / SOFAJRaft 
 
 #### 1.SOFAJRaft   -- 构建日志存储模块
