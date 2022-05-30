@@ -52,15 +52,15 @@
 
 #### 1.支持 HA 主从切换
 
-统一 Rocketmq 日志复制链路, 实现主从切换能力, 代替原有的 dledger 模式, 架构级项目.
+: 升级 Rocketmq 主从切换架构, 统一 Rocketmq 日志复制链路, 代替原有的 Dledger 切换模式, 是 Rocketmq 5.0 全新架构的重要功能特性之一。
 ![image](https://user-images.githubusercontent.com/58988019/167562365-a083f415-1701-425f-92cc-eb72eb2b3f0c.png)
 - RIP: (pending, 后续会发布)
 - Tracking issue: https://github.com/apache/rocketmq/issues/4330
 - 为 Dledger 新增 statemachine , pr: [Feature: add statemachine for dledger by hzh0425 · Pull Request #128 · openmessaging/dledger (github.com)](https://github.com/openmessaging/dledger/pull/128)
-- 为 Rocketmq 新增 Controller: pr: [[Summer of Code\] Dledger controller by hzh0425 · Pull Request #4195 · apache/rocketmq (github.com)](https://github.com/apache/rocketmq/pull/4195)
-- 基于 Nio 实现新的 Ha -- AutoSwitchHAService, 新的日志复制协议 , 在主从切换时进行日志截断: pr: [[Summer of Code] Support switch role for ha service ](https://github.com/apache/rocketmq/pull/4236) 
-- 在 Broker 层面实现主从切换的功能. pr: [[Summer of Code] Support switch role for broker](https://github.com/apache/rocketmq/pull/4272)
-- 支持 Async learner broker 角色: https://github.com/apache/rocketmq/pull/4367
+- 基于 Raft 算法库 Dledger, 实现高可用, 强一致的元数据管理中心 Controller, 赋能 Broker 选举能力: pr: [[Summer of Code\] Dledger controller by hzh0425 · Pull Request #4195 · apache/rocketmq (github.com)](https://github.com/apache/rocketmq/pull/4195)
+- 设计全新的日志复制协议, 配合 Controller 进行日志的截断, 统一 Rocketmq 日志复制链路: pr: [[Summer of Code] Support switch role for ha service ](https://github.com/apache/rocketmq/pull/4236) 
+- 对接 Controller 与 Broker api 协议, 实现主从切换功能, 让 Broker 具备自动切换 Master 和 Slave 角色的能力. pr: [[Summer of Code] Support switch role for broker](https://github.com/apache/rocketmq/pull/4272)
+- 支持 Async Learner Broker 角色, 以异步的方式接入 Master 日志复制链路, 适用于不同数据中心日志备份场景: https://github.com/apache/rocketmq/pull/4367
 
 
 ### SOFAStack / SOFAJRaft 
