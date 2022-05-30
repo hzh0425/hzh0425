@@ -52,8 +52,9 @@
 
 #### 1.支持 HA 主从切换
 
-: 升级 Rocketmq 主从切换架构, 统一 Rocketmq 日志复制链路, 代替原有的 Dledger 切换模式, 是 Rocketmq 5.0 全新架构的重要功能特性之一。
 ![image](https://user-images.githubusercontent.com/58988019/167562365-a083f415-1701-425f-92cc-eb72eb2b3f0c.png)
+
+- 主要工作: 升级 Rocketmq 主从切换架构, 统一 Rocketmq 日志复制链路, 代替原有的 Dledger 切换模式, 是 Rocketmq 5.0 全新架构的重要功能特性之一。
 - RIP: (pending, 后续会发布)
 - Tracking issue: https://github.com/apache/rocketmq/issues/4330
 - 为 Dledger 新增 statemachine , pr: [Feature: add statemachine for dledger by hzh0425 · Pull Request #128 · openmessaging/dledger (github.com)](https://github.com/openmessaging/dledger/pull/128)
