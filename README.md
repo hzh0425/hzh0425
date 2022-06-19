@@ -5,7 +5,7 @@
 
 - [4. 开源贡献](#开源贡献)
   - [4.1 Apache / Rocketmq](#apache--rocketmq)
-    - [1.支持 HA 主从切换](#1支持-ha-主从切换)
+    - [1.支持 Master-Slave 主从切换](#1支持-ha-主从切换)
   - [4.2 SOFAStack / SOFAJRaft](#sofastack--sofajraft)
     - [1.SOFAJRaft   -- 构建日志存储模块](#1sofajraft------构建日志存储模块)
     - [2.SOFAJRaft / Rheakv    -- 并行化状态机](#2sofajraft--rheakv-------并行化状态机)
