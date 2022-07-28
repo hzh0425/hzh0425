@@ -30,7 +30,7 @@
 
 ## 个人荣誉
 
-- **Top Contributor of Apache/Rocketmq**
+- **Committer of Apache/Rocketmq**
 - **Committer of SOFAStack/SOFAJRaft**
 - Contributor of Pingcap/TiFlash
 - Member of Pingcap/talent-plan
