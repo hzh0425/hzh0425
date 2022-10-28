@@ -16,7 +16,7 @@
 
 ## 个人信息
 
-邮箱: 642256541@qq.com, hzh0425@apache.org
+邮箱: hzh0425@apache.org
 
 个人公众号: 小衡开源之路
 
