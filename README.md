@@ -1,40 +1,20 @@
 
 
 - [1. 个人信息](#个人信息)
-- [2. 个人荣誉](#个人荣誉)
-- [3. 实习经历](#实习经历)
-- [4. 开源贡献](#开源贡献)
-  - [4.1 Apache / Rocketmq](#apache--rocketmq)
+- [2. 开源贡献](#开源贡献)
+  - [2.1 Apache / Rocketmq](#apache--rocketmq)
     - [1.支持 Master-Slave 主从切换](#1支持-ha-主从切换)
-  - [4.2 SOFAStack / SOFAJRaft](#sofastack--sofajraft)
+  - [2.2 SOFAStack / SOFAJRaft](#sofastack--sofajraft)
     - [1.SOFAJRaft   -- 构建日志存储模块](#1sofajraft------构建日志存储模块)
     - [2.SOFAJRaft / Rheakv    -- 并行化状态机](#2sofajraft--rheakv-------并行化状态机)
     - [3.SOFAJRaft / Rheakv   -- 并行压缩日志](#3sofajraft--rheakv------并行压缩日志)
-  - [4.3 数据库研发经验](#数据库研发经验)
+  - [2.3 数据库研发经验](#数据库研发经验)
     - [1.Pingcap/Tinykv](#1pingcaptinykv)
     - [**2.Mit6.830**](#2mit6830)
 
 ## 个人信息
 
 邮箱: hzh0425@apache.org
-
-个人公众号: 小衡开源之路
-
-## 个人荣誉
-
-- **Committer of Apache/Rocketmq**
-- **Committer of SOFAStack/SOFAJRaft**
-- Contributor of Pingcap/TiFlash
-- Member of Pingcap/talent-plan
-- [2021 '开源软件供应链点亮计划' -- '突出贡献奖'](https://summer.iscas.ac.cn/#/fintermdata)
-- [2021 'Pingcap tinykv 分布式存储训练营 第一名'](https://asktug.com/t/topic/393068)
-- 腾讯, 华为 -- fzu校园大使
-- 2021年 中国大学生服务外包创新创业大赛国家级 一等奖
-- ...................
-
-## 实习经历
-#### 腾讯
-#### Microsoft
 
 
 ## 开源贡献
