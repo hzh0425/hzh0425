@@ -17,9 +17,3 @@ Roadmaps I'm Driving
 - [Unified Radix Cache](https://www.lmsys.org/blog/2026-08-11-unified-radix-cache#introduction) — *LMSYS Blog, 2026-08*
 - [SGLang HiSparse](https://www.lmsys.org/blog/2026-04-10-sglang-hisparse/) — *LMSYS Blog, 2026-04*
 
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hzh0425&show_icons=true&hide_title=true&include_all_commits=false&count_private=true&hide=issues" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.demolab.com/?user=hzh0425&hide_border=true" alt="GitHub Streak" />
-</p>
