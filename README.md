@@ -16,4 +16,5 @@ Roadmaps I'm Driving
 
 - [Unified Radix Cache](https://www.lmsys.org/blog/2026-08-11-unified-radix-cache#introduction) — *LMSYS Blog, 2026-08*
 - [SGLang HiSparse](https://www.lmsys.org/blog/2026-04-10-sglang-hisparse/) — *LMSYS Blog, 2026-04*
+- [HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management](https://arxiv.org/abs/2608.07009) — *Arvix, 2026-08*
 
