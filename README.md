@@ -9,6 +9,7 @@ SGLang Maintainer — mainly working on the KVCache Scheduling System of SGLang,
 Roadmaps I'm Driving
 
 - [SGLang Distributed KVCache System For Agentic Workload](https://github.com/sgl-project/sglang/issues/21846)
+- [Agentic Cache Scheduling System Roadmap (Q4)](https://github.com/sgl-project/sglang/issues/43098)
 - [SGLang's new lightweight SessionAware Router module for bucket-based PD serving](https://github.com/sgl-project/sglang/issues/25760)
 - [HiSparse Roadmap](https://github.com/sgl-project/sglang/issues/28874)
 
