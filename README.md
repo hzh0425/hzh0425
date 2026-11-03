@@ -14,7 +14,7 @@ Roadmaps I'm Driving
 - [HiSparse Roadmap](https://github.com/sgl-project/sglang/issues/28874)
 
 ### ✍️ Blogs
-
+- [HiCache Across Multi‑Parallelism and Distributed Serving](https://www.lmsys.org/blog/2026-11-02-hicache-distributed-serving)  — *LMSYS Blog, 2026-11*
 - [Unified Radix Cache](https://www.lmsys.org/blog/2026-08-11-unified-radix-cache#introduction) — *LMSYS Blog, 2026-08*
 - [SGLang HiSparse](https://www.lmsys.org/blog/2026-04-10-sglang-hisparse/) — *LMSYS Blog, 2026-04*
 - [HiSparse: Scaling Sparse-Attention Decoding with Hierarchical KV Cache Management](https://arxiv.org/abs/2608.07009) — *Arvix, 2026-08*
